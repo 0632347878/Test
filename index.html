@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Test</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="header">
+      <section class="header_promotion_w">
+        <div class="header_top page_content">
+          <!-- <img class="you_img" src="img/you.png" alt="you"><div class="round1"><span>20%</span></div> -->
+        <figure class="left_girl">
+          <img class="you_img" src="img/you.png" alt="you">
+          <figcaption class="round1"><p>20%</p>Вам</figcaption>
+        </figure>
+        <div class="center_text">
+          <p class="leftstr">Расскажи подруге -</p>
+          <p class="rightstr">получи скидку</p>
+          <span class="rightstr_up">На все услуги клиники</span>
+        </div>
+        <figure class="right_girl">
+          <img class="your_friend_img" src="img/your-friend.png" alt="your-friend">
+          <figcaption class="round1 round1__mod"><p>15%</p>Ей</figcaption>
+        </figure>
+        <span onclick="var promotion = document.querySelector('.header_promotion_w');
+        promotion.classList.add('hidden');" class="close">Х</span> 
+        </div>
+      </section>
+      <section class="header_contact page_content">
+        <ul class="contacts">
+          <li class="office_phone">(044) 230-29-16</li>
+          <li class="kievstar">(067) 4059-225</li>
+          <li class="mtc">(066) 6141-033</li>
+          <li class="life">(093) 7165-094</li>
+        </ul>
+        <span class="location">Украина, г. Киев, ул. Пушкинская, д. 38</span>
+        <a href="#" class="lang">Eng</a>
+      </section>
+      <section class="header_main">
+        <div class="header_main page_content">
+          <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
+          <span class="slogan">Больше  10 лет спасаем мир:)</span>
+          <img class="tour" src="img/tour.png" alt="">
+          <ul class="work_hours">
+            <li>Пн.-Пт.  9:00 - 17:00</li>
+            <li>Сб.  10:00 - 16:00</li>
+            <li>Вс. - выходной</li>
+          </ul>
+          <div class="cover">
+            <div class="cover_inner"><a href=""><span>Подписка</span>на скидки и акции</a></div>
+          </div>
+        </div>
+      </section>
+      <section class="nav_w">
+      <nav class="nav">
+        <ul class="nav_list page_content">
+          <li class="nav_item"><a href="#" onclick="this.parentNode.classList.toggle('open');" class="nav_link">Услуги</a>
+            <ul class="services_dropdown">
+              <li class="service_item">
+                <h2 class="service_title">КОСМЕТОЛОГИЯ И ТАТУАЖ</h2>
+                <img class="service_icon service_icon1" src="img/cosmetilogy.png" alt="cosmetilogy">
+                <ul class="cosmetilogy_list"> 
+                  <li><a href="#" class="service_link">Лазерная сосудистая хирургия</a></li>
+                  <li><a href="#" class="service_link">Лазерная дерматология</a></li>
+                  <li><a href="#" class="service_link">Лазерная эпиляция</a></li>
+                  <li><a href="#" class="service_link">Пластические операции</a></li>
+                  <li><a href="#" class="service_link">Лазерная шлифовка</a></li>
+                  <li><a href="#" class="service_link">Удаление новообразований</a></li>
+                  <li><a href="#" class="service_link">Фотоомоложение</a></li>
+                  <li><a href="#" class="service_link">Омоложение лица</a></li>
+                  <li><a href="#" class="service_link service_link__mod">В раздел</a></li>
+                </ul>
+              </li>
+              <li class="service_item">
+                  <h2 class="service_title">ЛАЗЕРНЫЕ ПРОЦЕДУРЫ</h2>
+                  <img class="service_icon service_icon2" src="img/procedures.png" alt="procedures">
+                <ul class="procedures">
+                  <li><a href="#" class="service_link">Мезотерапия</a></li>
+                  <li><a href="#" class="service_link service_link__mod">Безинъекционная мезотерапия</a></li>
+                  <li><a href="#" class="service_link">Биостимуляция и биореструктуризация</a></li>
+                  <li><a href="#" class="service_link">Биоревитализация</a></li>
+                  <li><a href="#" class="service_link">Изменение объема и формы губ</a></li>
+                  <li><a href="#" class="service_link">Инъекции красоты</a></li>
+                  <li><a href="#" class="service_link">Устранение потливости</a></li>
+                  <li><a href="#" class="service_link service_link__mod">В раздел</a></li>
+                </ul>  
+              </li>
+              <li class="service_item">
+                  <h2 class="service_title">СНИЖЕНИЕ ВЕСА</h2>
+                  <img class="service_icon service_icon3" src="img/weight.png" alt="weight">
+                <ul class="weight">
+                  <li><a href="#" class="service_link">Косметология</a></li>
+                  <li><a href="#" class="service_link">Безоперационная подтяжка лица и тела</a></li>
+                  <li><a href="#" class="service_link">Аппаратная косметология</a></li>
+                  <li><a href="#" class="service_link">Лечение избыточного веса</a></li>
+                  <li><a href="#" class="service_link">Лечение варикозной болезни вен</a></li>
+                  <li><a href="#" class="service_link">Озонотерапия</a></li>
+                  <li><a href="#" class="service_link">Урология</a></li>
+                  <li><a href="#" class="service_link">Гинекология</a></li>
+                  <li><a href="#" class="service_link service_link__mod">В раздел</a></li>
+                </ul>
+              </li>
+              <li class="service_item">
+                  <h2 class="service_title">ЛЕЧЕНИЕ ВАРИКОЗА</h2>
+                  <img class="service_icon service_icon4" src="img/legs.png" alt="legs">
+                <ul class="legs">
+                  <li><a href="#" class="service_link">Целлюлит</a></li>
+                  <li><a href="#" class="service_link">Татуаж</a></li>
+                  <li><a href="#" class="service_link">Массаж</a></li>
+                  <li><a href="#" class="service_link">Дерматолог</a></li>
+                  <li><a href="#" class="service_link">Гемангиома</a></li>
+                  <li><a href="#" class="service_link">АКНЕ</a></li>
+                  <li><a href="#" class="service_link">Микродермабразия</a></li>
+                  <li><a href="#" class="service_link">Устранение рубцов и шрамов</a></li>
+                  <li><a href="#" class="service_link service_link__mod">В раздел</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav_item"><a class="nav_link" href="#">О центре</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">Акции</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">Цены</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">Запись на приём</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">Новости </a></li>
+          <li class="nav_item"><a class="nav_link" href="#">Фотогалерея</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">Контакты</a></li>
+        </ul>
+       </nav>
+      </section>
+    </header>
+  </body>
+</html>
